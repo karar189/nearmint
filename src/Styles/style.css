@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+body {
+  background-color: #0f0014;
+  color: white;
+}
+
+.navbar {
+  height: 15vh;
+  margin-left: 150px;
+  margin-top: 35px;
+
+}
+
+.hero{
+  margin-top: 18px;
+}
+
+.hero-text {
+  font-size: 108px;
+  display: flex;
+  justify-content: center;
+  font-family: "Zen Dots";
+  padding-bottom: 30px;
+  background: linear-gradient(
+    90deg,
+    #712b89 7.59%,
+    #5b19ae 40.67%,
+    #134b7e 74.53%,
+    #689895 99.26%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+
+.hero-text span {
+  background: linear-gradient(
+    270deg,
+    #DA98AB 0%,
+    #B27DF4 34.47%,
+    #1688F1 62.35%,
+    #a9d6ff 97.33%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.supply {
+  display: flex;
+  justify-content: center;
+  margin-top: 18px;
+}
+
+.supply span {
+  color: #eaaeff;
+  font-family: "Zen Dots";
+  padding-right: 15px;
+  font-size: 18px;
+}
+
+.supply a {
+  font-family: "Zen Dots";
+  font-size: 16px;
+  margin-top: 2px;
+}
+
+.mint {
+  display: flex;
+  justify-content: center;
+  padding: 35px;
+}
+
+.mint button {
+  box-sizing: border-box;
+  height: 50px;
+  width: 260px;
+  border-radius: 10px;
+  border: 2px solid#EAAEFF;
+  background-color: transparent;
+  font-family: "Zen Dots";
+  font-size: 25px;
+  background: linear-gradient(
+    270deg,
+    #e97070 0%,
+    #a9a7ff 34.47%,
+    #ae68f4 62.35%,
+    #a9d6ff 97.33%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.minted {
+  display: flex;
+  justify-content: center;
+  font-family: "Zen Dots";
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 150px;
+}
+
+.footer a {
+  font-family: "Montserrat";
+  padding-right: 12px;
+}
+
+.footer span {
+  font-family: "Montserrat";
+  font-size: 16px;
+  background: linear-gradient(
+    270deg,
+    #e97070 0%,
+    #a9a7ff 34.47%,
+    #ae68f4 62.35%,
+    #a9d6ff 97.33%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+
+.login {
+  
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+
+}
+
+.login button{
+
+  box-sizing: border-box;
+  height: 30px;
+  width: 80px;
+  border: 2px solid#EAAEFF;
+  border-radius: 5px;
+  background-color: transparent;
+  font-family: "Zen Dots";
+  font-size: 14px;
+  background: linear-gradient(
+    270deg,
+    #e97070 0%,
+    #a9a7ff 34.47%,
+    #ae68f4 62.35%,
+    #a9d6ff 97.33%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+
+}
