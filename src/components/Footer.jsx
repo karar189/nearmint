@@ -8,7 +8,8 @@ export default function Footer() {
     <>
          
       <section className="footer">
-      <a>Powered by</a>
+   
+Mint   <a>Powered by</a>
       <span><b>Vexed Apes X  D3Verse</b></span> 
       </section>
 
